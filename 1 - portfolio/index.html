@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hi, I'm Sam!</h1>
+      <h3>A Web Developer</h3>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-container">
+          <img class="profile-img" src="img/profile.jpg" alt="Profile Image" />
+          <div class="bio">
+            <p>
+              Hello, I'm <span class="highlight">Sam</span>, an experienced
+              developer passionate about creating innovative solutions. Clients
+              choose me for my expertise and dedication to delivering
+              high-quality results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2>Services</h2>
+        <ul class="services-list">
+          <li>Web Development</li>
+          <li>Mobile App Development</li>
+          <li>UI/UX Design</li>
+          <li>Database Management</li>
+        </ul>
+      </section>
+
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+          <img src="img/client-1.jpg" alt="Client 1" />
+          <div class="testimonial-content">
+            <p>
+              "I was impressed by my web development skills. The project was
+              delivered ahead of schedule and exceeded my expectations. Highly
+              recommended!"
+            </p>
+            <span class="testimonial-author">- Chris Rock</span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="img/client-2.jpg" alt="Client 2" />
+          <div class="testimonial-content">
+            <p>
+              "I hired Sam for mobile app development, and the results were
+              outstanding. The app is user-friendly and exactly what I
+              envisioned. Great communication throughout the process!"
+            </p>
+            <span class="testimonial-author">- Michael Smith</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-item">
+          <img src="img/project-1.jpg" alt="Project 1" />
+          <h4>Chef's Favourite Meals</h4>
+          <p>
+            A JavaScript application that interacts with The Meal DB API to take
+            and complete orders of the ‘chef's favourite meals’. The application
+            utilises the prompt() and alert() functions for user interactions,
+            the fetch API for consuming the Meal DB API, and sessionStorage to
+            store order details.
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Contact:
+        <a href="mailto:samb@hyperiondev.com">samb@hyperiondev.com</a>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
